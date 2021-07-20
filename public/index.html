@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEAR Art</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body class="bg-gray-100">
+    <!-- Decoration -->
+    <section>
+        <div style="z-index: -1;" class="absolute hidden md:block top-80 left-64">
+            <img src="./img/decor-blue.png" alt="">
+        </div>
+        <div style="z-index: -1;" class="absolute hidden md:block top-32 right-96">
+            <img src="./img/decor-green.png" alt="">
+        </div>
+        <div style="z-index: -1;" class="absolute bottom-0 right-16">
+            <img src="./img/decor-red.png" alt="">
+        </div>
+    </section>
+    <header class="flex w-full">
+        <!-- Left side navigation -->
+        <nav style="min-width: 300px; min-height: 100vh;" class="border-r border-gray-400 bg-white pt-10 pl-8">
+            <!-- Logo -->
+            <div class="">
+                <h1 class="text-2xl font-bold">Ⓝ NEAR Art</h1>
+            </div>
+            <!-- Menu -->
+            <menu class="mt-16 p-0">
+                <p class="font-medium text-gray-400">Menu</p>
+                <ul class="text-gray-400 font-medium ml-6">
+                    <li class="mt-4">
+                        <a href="#" class="hover:text-gray-900 flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                            Generate new art
+                        </a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="hover:text-gray-900 flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z" />
+                            </svg>
+                            Claim exist art
+                        </a>
+                    </li>
+                    <li class="mt-4">
+                        <a href="#" class="hover:text-gray-900 flex">
+                            <svg class="h-6 w-6 mr-2" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                                <path d="M0 19.8537C0 18.6683 0.957902 17.7073 2.13953 17.7073C3.32117 17.7073 4.27907 18.6683 4.27907 19.8537C4.27907 21.0391 3.32117 22 2.13953 22C0.957902 22 0 21.0391 0 19.8537Z" fill="currentColor"/>
+                                <path d="M6.4186 12.878C6.4186 11.6927 7.37651 10.7317 8.55814 10.7317C9.73977 10.7317 10.6977 11.6927 10.6977 12.878C10.6977 14.0634 9.73977 15.0244 8.55814 15.0244C7.37651 15.0244 6.4186 14.0634 6.4186 12.878Z" fill="currentColor"/>
+                                <path d="M13.3721 6.97561C13.3721 5.79022 14.33 4.82927 15.5116 4.82927C16.6933 4.82927 17.6512 5.79022 17.6512 6.97561C17.6512 8.161 16.6933 9.12195 15.5116 9.12195C14.33 9.12195 13.3721 8.161 13.3721 6.97561Z" fill="currentColor"/>
+                                <path d="M18.7209 2.14634C18.7209 0.96095 19.6788 0 20.8605 0C22.0421 0 23 0.96095 23 2.14634C23 3.33173 22.0421 4.29268 20.8605 4.29268C19.6788 4.29268 18.7209 3.33173 18.7209 2.14634Z" fill="currentColor"/>
+                                <path d="M0.534884 12.878C0.534884 11.989 1.25331 11.2683 2.13953 11.2683C3.02576 11.2683 3.74419 11.989 3.74419 12.878C3.74419 13.7671 3.02576 14.4878 2.13953 14.4878C1.25331 14.4878 0.534884 13.7671 0.534884 12.878Z" fill="currentColor"/>
+                                <path d="M6.95349 6.97561C6.95349 6.08657 7.67192 5.36585 8.55814 5.36585C9.44436 5.36585 10.1628 6.08657 10.1628 6.97561C10.1628 7.86465 9.44436 8.58537 8.55814 8.58537C7.67192 8.58537 6.95349 7.86465 6.95349 6.97561Z" fill="currentColor"/>
+                                <path d="M19.2558 19.8537C19.2558 18.9646 19.9742 18.2439 20.8605 18.2439C21.7467 18.2439 22.4651 18.9646 22.4651 19.8537C22.4651 20.7427 21.7467 21.4634 20.8605 21.4634C19.9742 21.4634 19.2558 20.7427 19.2558 19.8537Z" fill="currentColor"/>
+                                <path d="M13.907 2.14634C13.907 1.2573 14.6254 0.536585 15.5116 0.536585C16.3979 0.536585 17.1163 1.2573 17.1163 2.14634C17.1163 3.03539 16.3979 3.7561 15.5116 3.7561C14.6254 3.7561 13.907 3.03539 13.907 2.14634Z" fill="currentColor"/>
+                                <path d="M1.06977 6.97561C1.06977 6.38291 1.54872 5.90244 2.13953 5.90244C2.73035 5.90244 3.2093 6.38291 3.2093 6.97561C3.2093 7.56831 2.73035 8.04878 2.13953 8.04878C1.54872 8.04878 1.06977 7.56831 1.06977 6.97561Z" fill="currentColor"/>
+                                <path d="M19.7907 12.878C19.7907 12.2854 20.2696 11.8049 20.8605 11.8049C21.4513 11.8049 21.9302 12.2854 21.9302 12.878C21.9302 13.4707 21.4513 13.9512 20.8605 13.9512C20.2696 13.9512 19.7907 13.4707 19.7907 12.878Z" fill="currentColor"/>
+                                <path d="M14.4419 19.8537C14.4419 19.261 14.9208 18.7805 15.5116 18.7805C16.1024 18.7805 16.5814 19.261 16.5814 19.8537C16.5814 20.4464 16.1024 20.9268 15.5116 20.9268C14.9208 20.9268 14.4419 20.4464 14.4419 19.8537Z" fill="currentColor"/>
+                                <path d="M7.48837 2.14634C7.48837 1.55365 7.96732 1.07317 8.55814 1.07317C9.14896 1.07317 9.62791 1.55365 9.62791 2.14634C9.62791 2.73904 9.14896 3.21951 8.55814 3.21951C7.96732 3.21951 7.48837 2.73904 7.48837 2.14634Z" fill="currentColor"/>
+                                <path d="M1.60465 2.14634C1.60465 1.84999 1.84413 1.60976 2.13953 1.60976C2.43494 1.60976 2.67442 1.84999 2.67442 2.14634C2.67442 2.44269 2.43494 2.68293 2.13953 2.68293C1.84413 2.68293 1.60465 2.44269 1.60465 2.14634Z" fill="currentColor"/>
+                                <path d="M20.3256 6.97561C20.3256 6.67926 20.5651 6.43902 20.8605 6.43902C21.1559 6.43902 21.3953 6.67926 21.3953 6.97561C21.3953 7.27196 21.1559 7.5122 20.8605 7.5122C20.5651 7.5122 20.3256 7.27196 20.3256 6.97561Z" fill="currentColor"/>
+                                <path d="M8.02326 20.122C8.02326 19.6774 8.38247 19.3171 8.82558 19.3171C9.26869 19.3171 9.62791 19.6774 9.62791 20.122C9.62791 20.5665 9.26869 20.9268 8.82558 20.9268C8.38247 20.9268 8.02326 20.5665 8.02326 20.122Z" fill="currentColor"/>
+                                <path d="M14.9767 12.878C14.9767 12.5817 15.2162 12.3415 15.5116 12.3415C15.807 12.3415 16.0465 12.5817 16.0465 12.878C16.0465 13.1744 15.807 13.4146 15.5116 13.4146C15.2162 13.4146 14.9767 13.1744 14.9767 12.878Z" fill="currentColor"/>
+                                </svg>
+                            My art
+                        </a>
+                    </li>
+                </ul>
+                <p class="font-medium text-gray-400 mt-8">General</p>
+                <ul class="text-gray-400 font-medium ml-6">
+                    <li class="mt-4">
+                        <a href="#" class="hover:text-gray-900 flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                            </svg>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </menu>
+        </nav>
+        <!-- Main content -->
+        <main class="w-full pt-10 px-8">
+            <nav class="flex justify-between">
+                <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute top-4 left-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                    <input  type="text" placeholder="Enter seed to claim" class="bg-gray-100 border border-gray-400 rounded-full outline-none pl-14" style="min-height: 60px; min-width: 300px;">
+                </div>
+                <a href="#" class="block flex">
+                    <div class="bg-blue-400 p-4 rounded-full text-white" style="background: linear-gradient(180deg, #60A5FA 0%, #2D74CB 100%);">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <p class="text-md font-bold ml-4 mt-2">Nazar Nyzhnyk <br> <span class="text-sm font-medium text-gray-400">1 art in the property</span></p>
+                </a>
+            </nav>
+            <section class="mt-10">
+                <div class="w-full flex justify-between">
+                    <div class="">
+                        <h2 class="text-3xl font-bold">My art in own</h2>
+                        <p class="text-gray-400 font-medium">here is your art</p>
+                    </div>
+                    <div class="">
+                        <svg class="mt-2" width="43" height="41" viewBox="0 0 43 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 37C0 34.7909 1.79086 33 4 33C6.20914 33 8 34.7909 8 37C8 39.2091 6.20914 41 4 41C1.79086 41 0 39.2091 0 37Z" fill="#111827"/>
+                            <path d="M12 24C12 21.7909 13.7909 20 16 20C18.2091 20 20 21.7909 20 24C20 26.2091 18.2091 28 16 28C13.7909 28 12 26.2091 12 24Z" fill="#111827"/>
+                            <path d="M25 13C25 10.7909 26.7909 9 29 9C31.2091 9 33 10.7909 33 13C33 15.2091 31.2091 17 29 17C26.7909 17 25 15.2091 25 13Z" fill="#111827"/>
+                            <path d="M35 4C35 1.79086 36.7909 0 39 0C41.2091 0 43 1.79086 43 4C43 6.20914 41.2091 8 39 8C36.7909 8 35 6.20914 35 4Z" fill="#111827"/>
+                            <path d="M1 24C1 22.3431 2.34315 21 4 21C5.65685 21 7 22.3431 7 24C7 25.6569 5.65685 27 4 27C2.34315 27 1 25.6569 1 24Z" fill="#111827"/>
+                            <path d="M13 13C13 11.3431 14.3431 10 16 10C17.6569 10 19 11.3431 19 13C19 14.6569 17.6569 16 16 16C14.3431 16 13 14.6569 13 13Z" fill="#111827"/>
+                            <path d="M36 37C36 35.3431 37.3431 34 39 34C40.6569 34 42 35.3431 42 37C42 38.6569 40.6569 40 39 40C37.3431 40 36 38.6569 36 37Z" fill="#111827"/>
+                            <path d="M26 4C26 2.34315 27.3431 1 29 1C30.6569 1 32 2.34315 32 4C32 5.65685 30.6569 7 29 7C27.3431 7 26 5.65685 26 4Z" fill="#111827"/>
+                            <path d="M2 13C2 11.8954 2.89543 11 4 11C5.10457 11 6 11.8954 6 13C6 14.1046 5.10457 15 4 15C2.89543 15 2 14.1046 2 13Z" fill="#111827"/>
+                            <path d="M37 24C37 22.8954 37.8954 22 39 22C40.1046 22 41 22.8954 41 24C41 25.1046 40.1046 26 39 26C37.8954 26 37 25.1046 37 24Z" fill="#111827"/>
+                            <path d="M27 37C27 35.8954 27.8954 35 29 35C30.1046 35 31 35.8954 31 37C31 38.1046 30.1046 39 29 39C27.8954 39 27 38.1046 27 37Z" fill="#111827"/>
+                            <path d="M14 4C14 2.89543 14.8954 2 16 2C17.1046 2 18 2.89543 18 4C18 5.10457 17.1046 6 16 6C14.8954 6 14 5.10457 14 4Z" fill="#111827"/>
+                            <path d="M3 4C3 3.44772 3.44772 3 4 3C4.55228 3 5 3.44772 5 4C5 4.55228 4.55228 5 4 5C3.44772 5 3 4.55228 3 4Z" fill="#111827"/>
+                            <path d="M38 13C38 12.4477 38.4477 12 39 12C39.5523 12 40 12.4477 40 13C40 13.5523 39.5523 14 39 14C38.4477 14 38 13.5523 38 13Z" fill="#111827"/>
+                            <path d="M15 37.5C15 36.6716 15.6716 36 16.5 36C17.3284 36 18 36.6716 18 37.5C18 38.3284 17.3284 39 16.5 39C15.6716 39 15 38.3284 15 37.5Z" fill="#111827"/>
+                            <path d="M28 24C28 23.4477 28.4477 23 29 23C29.5523 23 30 23.4477 30 24C30 24.5523 29.5523 25 29 25C28.4477 25 28 24.5523 28 24Z" fill="#111827"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mt-10 p-8 rounded-md" style="background: linear-gradient(180deg, #60A5FA 0%, #2D74CB 100%);">
+                    <p class="font-medium text-gray-200">ART</p>
+                    <div class="flex mt-4">
+                        <!-- Art image -->
+                        <div class="">
+                            <img src="./img/art.png" alt="art">
+                        </div>
+                        <!-- Art info -->
+                        <div class="ml-8">
+                            <h3 class="text-white font-medium text-2xl mb-3">Art name</h3>
+                            <!-- One row -->
+                            <div class="flex font-medium text-lg tracking-wide">
+                                <!-- Option -->
+                                <p class="text-gray-200">Seed</p>
+                                <!-- Value -->
+                                <p class="text-white ml-6">156841651</p>
+                                <a href="#" class="text-gray-200 hover:text-white ml-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <!-- One row -->
+                            <!-- One row -->
+                            <div class="flex font-medium text-lg tracking-wide">
+                                <!-- Option -->
+                                <p class="text-gray-200">Owner</p>
+                                <!-- Value -->
+                                <p class="text-white ml-6">Nazar Nyzhnyk</p>
+                            </div>
+                            <!-- One row -->
+                            <!-- One row -->
+                            <div class="flex font-medium text-lg tracking-wide">
+                                <!-- Option -->
+                                <p class="text-gray-200">Option</p>
+                                <!-- Value -->
+                                <p class="text-white ml-6">Value</p>
+                            </div>
+                            <!-- One row -->
+                            <!-- One row -->
+                            <div class="flex font-medium text-lg tracking-wide">
+                                <!-- Option -->
+                                <p class="text-gray-200">Option #2</p>
+                                <!-- Value -->
+                                <p class="text-white ml-6">Value #2</p>
+                            </div>
+                            <!-- One row -->
+                            <p class ="text-white mt-3" style="max-width: 500px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptate, 
+                                debitis illo culpa placeat id architecto iste quasi cupiditate eveniet cumque,
+                                 at natus ut pariatur, nemo et nihil consectetur laborum!
+                            </p>
+                        </div>  
+                        <!-- Art method-->
+                        <div class="ml-auto">
+                            <div class="flex text-white text-lg">
+                                <p class="font-medium mt-1 mr-3">Burn</p>
+                                <a href="#" class="block border-2 border-white rounded-md p-2 hover:bg-white hover:text-red-400">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </header>
+    <footer class="w-full block bottom-0 bg-gray-900 px-9 py-6 z-50">
+        <h2 class="text-white text-2xl font-medium">Ⓝ NEAR Art</h2>
+        <ul class="flex ml-4 mt-3">
+            <li>
+                <a href="#" class="mr-3 text-lg text-gray-300 hover:underline">F.A.Q.</a>
+            </li>
+            <li>
+                <a href="#" class="mr-3 text-lg text-gray-300 hover:underline">Contacts</a>
+            </li>
+            <li>
+                <a href="#" class="mr-3 text-lg text-gray-300 hover:underline">Rules</a>
+            </li>
+        </ul>
+        <p class="text-gray-700 text-right">© 2021 All rights reserverd. Develop by  <a href="https://t.me/NazarNyzhnyk" class="text-gray-400 hover:underline font-medium">Nazar Nyzhnyk</a></p>
+    </footer>
+</body>
+</html>
